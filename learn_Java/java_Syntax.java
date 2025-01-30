@@ -1,4 +1,3 @@
-package learn_Java;
 
 public class java_Syntax {
     public static void main(String[] args) {

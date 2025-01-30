@@ -50,5 +50,23 @@ public class javaVariables {
         boolean isOn = false;
         boolean isOff = true;
 
+        //Tambien podemos concatenar Variables en una funcion Print() usando el signo +
+        name = "Alex";
+        String lastName1 = "Trujillo";
+        System.out.println(name + lastName1);
+
+        //Si usamos el signo + con numero obtendremos una Operacion Matematica
+        System.out.println(3 + 3);
+
+        //------------------------------------------------------------------------------------------------------------------\\
+
+        //Java puede crear multiples variables sin necesidad de usar varias lineas de codigo siempre y cuando sean del mismo tipo
+        int x = 1, y = 2, z = 3;
+        System.out.println(x + y + z);
+
+        //Tambien podemos asignarles un unico valor a las mismas
+        x = y = z = 80;
+        System.out.println(x + y + z);
+
     }
 }

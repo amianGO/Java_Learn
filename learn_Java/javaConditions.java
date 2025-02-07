@@ -73,7 +73,8 @@ public class javaConditions {
         } else {
             System.out.println("El numero es 0");
         }
-
+        
+        
     }
     
 }
